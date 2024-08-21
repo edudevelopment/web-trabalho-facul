@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+:root {
+    --corHome:#0c0636;
+    --corFormacao:#095169;
+    --corPortflio:#059b9a;
+    --corContato:#53ba83;
+    --corHover:#9fd86b;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+    background-color: var(--corHome);
+}
+
+#home {
+    background-color: var(--corHome);
+}
+
+#formacao {
+    background-color: var(--corFormacao);
+}
+
+#portfolio {
+    background-color: var(--corPortflio);
+}
+
+#contato {
+    background-color: var(--corContato);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+a {
+    margin: 60px;
+    color: white;
+    text-decoration: none;
+
+    font-size: 23px;
+}
+
+a:hover {
+    color: var(--corHover);
+    transition: .5s;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#apresentacao {
+    padding-bottom: 30px;
+    width: 60%;
+    font-size: 16px;
+    height: 40%;
+    box-shadow: 0px 0px 29px -10px rgba(0,0,0,0.75);
+}
+
+.texto-apresentacao {
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+img { 
+    margin-top: 20px;
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    
+}
+
+.caixa-imagem {
+    display: flex;
+    justify-content: center;
+}
+
+#celular {
+    height: 720px;
+}
+
+.texto-desc {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#caixa-form {
+    display: flex;
+    padding-bottom: 30px;
+    width: 60%;
+    font-size: 16px;
+    box-shadow: 0px 0px 29px -10px rgba(0,0,0,0.75);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px;
+}
+
+form > input {
+    margin:10px 0px 10px 0px;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+#enviar {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+
+#enviar:hover {
+    cursor: pointer;
+    background-color: var(--corHover);
+    transition: .5s;
+}
+
+#email-foto { 
+    width: 60%;
+    margin: 50px 15px;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+.contact:hover {
+    color: #c3f891;
+}
